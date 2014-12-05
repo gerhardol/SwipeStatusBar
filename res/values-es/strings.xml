@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Habilitar SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Muestra el panel de notificación o configuración rápida con un gesto</string>
+    <string name="pref_alternative_mode">Modo alternativo</string>
+    <string name="pref_alternative_mode_summary">¿Tienes problemas con la funcionalidad de la aplicación? Prueba el modo alternativo</string>
+    <string name="pref_general_settings">Configuración General</string>
+    <string name="pref_vibrate">Respuesta Tactil</string>
+    <string name="pref_vibrate_summary">Vibrar al arrrastrar hacia abajo el panel de notificación o configuración rápida</string>
+    <string name="pref_multi_touch">Gesto Multitactil</string>
+    <string name="pref_multi_touch_summary_on">Utilizar dos dedos</string>
+    <string name="pref_multi_touch_summary_off">Utilizar un solo dedo</string>
+    <string name="pref_expand_settings">Habilitar Panel de Configuración Rápida</string>
+    <string name="pref_expand_settings_on">Arrastra desde la izquierda para mostrar el panel de notificación y desde la derecha para mostrar el panel de configuración rápida</string>
+    <string name="pref_expand_settings_off">Toda el área esta dedicada al panel de notificación</string>
+    <string name="pref_expand_settings_error">Esta característica no esta disponible para tu dispositivo (Android 4.2 o mayor requerido)</string>
+    <string name="pref_try_it">Pruebalo</string>
+    <string name="pref_try_it_summary">Prueba el gesto de arrastre, ajusta la sensitividad y cambia la longitud del área de gesto y su posición.</string>
+    <string name="pref_others">Otros</string>
+    <string name="pref_bug_suggestions">Contacta al Autor</string>
+    <string name="pref_bug_suggestions_summary">¿Encontraste algún problema o tienes sugerencias para mejorar esta aplicación?</string>
+    <string name="pref_donate">Donar</string>
+    <string name="pref_donate_summary">Si te gustó esta aplicación por favor considera apoyar al desarrollador</string>
+    <string name="pref_about">Acerca de</string>
+    <string name="test_swipe_sensitivity">Ajustar Sensitividad</string>
+    <string name="app_descriptions">Aplicación para el rápido acceso al panel de notificación y configuracion rápida por medio de un simple gesto desde aplicaciones en pantalla completa.</string>
+    <string name="app_author">Autor</string>
+    <string name="app_translation">Traductores</string>
+    <string name="app_version">Versión:</string>
+    <string name="donate_small">Regalo pequeño</string>
+    <string name="donate_medium">Regalo mediano</string>
+    <string name="donate_large">Regalo grande</string>
+    <string name="donate_successful">Gracias por tu regalo! Tal vez quieras volver a probar la sensitividad del gesto :)</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="pref_show_only">Mostrar Solamente</string>
+    <string name="pref_show_only_on">Solamente se muestra la barra de estado</string>
+    <string name="pref_show_only_off">La barra de estado baja completamente</string>
+    <string name="pref_vibrate_strength">Intensidad de Respuesta Tactil</string>
+    <string name="pref_vibrate_strength_summary">Intensidad de la vibración</string>
+    <string name="app_changelog">Changelog</string>
+    <string name="pref_swipe_width">Longitud del área</string>
+    <string name="pref_swipe_position">Posición</string>
+
+</resources>

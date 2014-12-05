@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Włacz SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Wysuń panel notyfikacji lub przełączników prostym gestem</string>
+    <string name="pref_alternative_mode">Tryb alternatywny</string>
+    <string name="pref_alternative_mode_summary">Masz problem z działaniem aplikacji? Możesz spróbować trybu alternatywnego</string>
+    <string name="pref_general_settings">Główne ustawienia</string>
+    <string name="pref_vibrate">Reakcja wibracją</string>
+    <string name="pref_vibrate_summary">Wibracja, gdy wysuwasz panel notyfikacji lub przełączników</string>
+    <string name="pref_multi_touch">Gest wieloma palcami</string>
+    <string name="pref_multi_touch_summary_on">Do wysunięcia panelu notyfikacji lub przełączników wymagany jest gest dwoma palcami</string>
+    <string name="pref_multi_touch_summary_off">Do wysunięcia panelu notyfikacji lub przełączników wystarczy użyć jednego palca</string>
+    <string name="pref_expand_settings">Włącz gest szybkiego włączenia przełączników</string>
+    <string name="pref_expand_settings_on">Przeciągnięcie z lewej strony wysunie panel notyfikacji, a z prawej panel przełączników</string>
+    <string name="pref_expand_settings_off">Przeciągnięcie gdziekolwiek wysunie panel notyfikacji</string>
+    <string name="pref_expand_settings_error">Twoje urządzenie nie wspiera tej funkcji (wymagany Android 4.2 lub wyżej)</string>
+    <string name="pref_try_it">Spróbuj</string>
+    <string name="pref_try_it_summary">Sprawdź jak działa gest oraz dostosuj czułość, szerokość i pozycję</string>
+    <string name="pref_others">Inne</string>
+    <string name="pref_bug_suggestions">Skontaktuj się z autorem</string>
+    <string name="pref_bug_suggestions_summary">Znalazłeś jakiś błąd lub masz propozycję, jak ulepszyć aplikację?</string>
+    <string name="pref_donate">Dotacja</string>
+    <string name="pref_donate_summary">Jeśli podoba Ci się ta aplikacja, możesz wspomóc autora</string>
+    <string name="pref_about">O aplikacji</string>
+    <string name="test_swipe_sensitivity">Dostosuj czułość</string>
+    <string name="app_descriptions">Aplikacja służąca do szybkiego otworzenia panelu notyfikacji lub przełączników szybkim gestem w aplikacjach pełnoekranowych.</string>
+    <string name="app_author">Autor</string>
+    <string name="app_translation">Tłumaczenia</string>
+    <string name="app_version">Wersja:</string>
+    <string name="donate_small">Mały datek</string>
+    <string name="donate_medium">Średni datek</string>
+    <string name="donate_large">Duży datek</string>
+    <string name="donate_successful">Dzięki za Twój datek! Może chcesz spróbować gestu jeszcze raz!?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Wyjdź</string>
+    <string name="pref_show_only">Tylko pokaż</string>
+    <string name="pref_show_only_on">Pasek statusu jest tylko pokazywany</string>
+    <string name="pref_show_only_off">Pasek statusu jest od razu wysuwany</string>
+    <string name="pref_vibrate_strength">Siła wibracji</string>
+    <string name="pref_vibrate_strength_summary">Siła z jaką wibruje telefon podczas wysuwania paska statusu</string>
+    <string name="pref_swipe_width">Szerokość</string>
+    <string name="pref_swipe_position">Pozycja</string>
+
+</resources>

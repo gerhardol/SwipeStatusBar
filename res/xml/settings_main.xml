@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:blinkPrefs="http://schemas.android.com/apk/res/cz.chladek.swipe_status_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <PreferenceCategory android:title="@string/app_name_space" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_start_service"
+            android:summary="@string/pref_start_service_summary"
+            android:title="@string/pref_start_service" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_alternative_mode"
+            android:summary="@string/pref_alternative_mode_summary"
+            android:title="@string/pref_alternative_mode" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_general_settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_vibrate"
+            android:summary="@string/pref_vibrate_summary"
+            android:title="@string/pref_vibrate" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:key="@string/pref_key_vibrate_strength"
+            android:summary="@string/pref_vibrate_strength_summary"
+            android:title="@string/pref_vibrate_strength" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_multi_touch"
+            android:summaryOff="@string/pref_multi_touch_summary_off"
+            android:summaryOn="@string/pref_multi_touch_summary_on"
+            android:title="@string/pref_multi_touch" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_expand_settings"
+            android:summaryOff="@string/pref_expand_settings_off"
+            android:summaryOn="@string/pref_expand_settings_on"
+            android:title="@string/pref_expand_settings" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_show_only"
+            android:summaryOff="@string/pref_show_only_off"
+            android:summaryOn="@string/pref_show_only_on"
+            android:title="@string/pref_show_only" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:key="@string/pref_key_try_it"
+            android:summary="@string/pref_try_it_summary"
+            android:title="@string/pref_try_it" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/pref_key_others_category"
+        android:title="@string/pref_others" >
+        <PreferenceScreen
+            android:key="@string/pref_key_dev_preference"
+            android:summary="@string/pref_dev_summary"
+            android:title="@string/pref_dev_title" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_permanent_visibility"
+                android:summary="@string/pref_permanent_visibility_summary"
+                android:title="@string/pref_permanent_visibility" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_status_bar_permanent_visibility"
+                android:summary="@string/pref_show_status_bar_summary"
+                android:title="@string/pref_show_status_bar" >
+            </CheckBoxPreference>
+
+            <ListPreference
+                android:defaultValue="2500"
+                android:entries="@array/check_life_interval"
+                android:entryValues="@array/check_life_interval_values"
+                android:key="@string/pref_key_check_life_interval"
+                android:summary="@string/pref_check_life_interval_summary"
+                android:title="@string/pref_check_life_interval" >
+            </ListPreference>
+            <ListPreference
+                android:defaultValue="*"
+                android:entries="@array/array_language"
+                android:entryValues="@array/array_language_values"
+                android:key="@string/pref_key_language"
+                android:summary="@string/pref_language_summary"
+                android:title="@string/pref_language" >
+            </ListPreference>
+        </PreferenceScreen>
+
+        <!--
+        <Preference
+            android:key="@string/pref_key_bug_suggestions"
+            android:summary="@string/pref_bug_suggestions_summary"
+            android:title="@string/pref_bug_suggestions" />
+        -->
+
+        <cz.chladek.android.preferences.BlinkingPreference
+            android:enabled="false"
+            android:key="@string/pref_key_donate"
+            android:summary="@string/pref_donate_summary"
+            android:title="@string/pref_donate"
+            blinkPrefs:delay="50"
+            blinkPrefs:duration="500"
+            blinkPrefs:endColor="#01000000"
+            blinkPrefs:repeatCount="20"
+            blinkPrefs:startColor="#4033B5E5" />
+
+        <Preference
+            android:key="@string/pref_key_about"
+            android:title="@string/pref_about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

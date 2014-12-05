@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Povoliť SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Zobrazenie notifikačnej lišty alebo panela rýchleho nastavenia jednoduchým gestom</string>
+    <string name="pref_alternative_mode">Alternatívny režim</string>
+    <string name="pref_alternative_mode_summary">Máte problém s funkčnosťou? Môžete vyskúšať alternatívny režim</string>
+    <string name="pref_general_settings">Všeobecné nastavenia</string>
+    <string name="pref_vibrate">Vibračná odozva</string>
+    <string name="pref_vibrate_summary">Vibrovať pri vysunutí notifikačnej lišty alebo panela rýchlych nastavení</string>
+    <string name="pref_multi_touch">Gesto s viacerými prstami</string>
+    <string name="pref_multi_touch_summary_on">Pre vysunutie lišty je nutné použiť gesto s minimálne dvoma prstami</string>
+    <string name="pref_multi_touch_summary_off">Pre vysunutie lišty je nutné použiť len jeden prst</string>
+    <string name="pref_expand_settings">Povoliť panel rýchlych nastavení</string>
+    <string name="pref_expand_settings_on">Gesto z ľavej časti pre zobrazenie notifikácií, gesto z pravej časti pre zobrazenie panela rýchlych nastavení</string>
+    <string name="pref_expand_settings_off">Celá časť slúži pre notifkačnú lištu</string>
+    <string name="pref_expand_settings_error">Táto funkcia nie je podporovaná Vašou verziou Androidu (Android 4.2 alebo novší je vyžadovaný)</string>
+    <string name="pref_try_it">Vyskúsať</string>
+    <string name="pref_try_it_summary">Vyskúšať gesto, upraviť citlivosť and zmeniť šírku a pozíciu</string>
+    <string name="pref_others">Ďalšie</string>
+    <string name="pref_bug_suggestions">Kontaktovať autora</string>
+    <string name="pref_bug_suggestions_summary">Našli ste chybu alebo máte nápady/návrhy na zlepšenie aplikácie?</string>
+    <string name="pref_donate">Dar</string>
+    <string name="pref_donate_summary">Ak sa Vám páči táto aplikácia, môžete autora podporiť darom</string>
+    <string name="pref_about">O aplikácii</string>
+    <string name="test_swipe_sensitivity">Upraviť citlivosť</string>
+    <string name="app_descriptions">Pomocou tejto utility sa môžete, cez jednoduché gesto, dostať k notifikáciam alebo nastaveniam z aplikácií cez celú obrazovku.</string>
+    <string name="app_author">Autor</string>
+    <string name="app_translation">Prekladatelia</string>
+    <string name="app_version">Verzia:</string>
+    <string name="donate_small">Malý dar</string>
+    <string name="donate_medium">Stredný dar</string>
+    <string name="donate_large">Veľký dar</string>
+    <string name="donate_successful">Ďakujem za Váš dar! Možno si chcete znova vyskúšať gesto!?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Zrušiť</string>
+    <string name="pref_show_only">Len zobraziť</string>
+    <string name="pref_show_only_on">Zobrazí sa len stavový riadok</string>
+    <string name="pref_show_only_off">Stavový riadok sa plne vysunie</string>
+    <string name="pref_vibrate_strength">Sila vibračnej odozvy</string>
+    <string name="pref_vibrate_strength_summary">Sila vibračnej odozvy pri vysunutí stavového riadku</string>
+    <string name="app_changelog">Zoznam zmien</string>
+    <string name="pref_swipe_width">Šírka</string>
+    <string name="pref_swipe_position">Pozícia</string>
+
+</resources>

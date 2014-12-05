@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="changelog_1_0">"1.0
+\u0009- ilk kamu sürümü"</string>
+    <string name="changelog_1_0_1">"1.0.1
+\u0009- sabit hata"</string>
+    <string name="changelog_1_0_2">"1.0.2
+\u0009- sabit tam ekran sorunu
+\u0009- Rusça çevirisi"</string>
+    <string name="changelog_1_1">"1.1
+\u0009- (aşağı çekme olmaksızın) durum çubuğu seçeneği eklendi
+\u0009- Almanca çeviri (Helge Foerster sayesinde)"</string>
+    <string name="changelog_1_2">"1.2
+\u0009- Güncellendi Rusça çevirisi
+\u0009- Lehçe çeviri (Ostry10 sayesinde)
+\u0009- titreşimli geribildirim gücünü değiştirme
+\u0009- android 2.2 + uyumluluğu"</string>
+    <string name="changelog_1_2_1">"1.2.1
+\u0009- genişletilmiş masaüstü modunda CM rom üzerinde sabit sorunu"</string>
+    <string name="changelog_1_2_2">"1.2.2
+\u0009- değişiklik günlüğü eklendi
+\u0009- güncellenmiş çeviriler
+\u0009- İspanyolca çeviri (Haptein sayesinde)
+\u0009- Sabit küçük hata"</string>
+    <string name="changelog_1_2_3">"1.2.3
+\u0009- küçük iyileştirmeler"</string>
+    <string name="changelog_1_2_4">"1.2.4
+\u0009- düşük RAM durumunda davranışını geliştirmek"</string>
+    <string name="changelog_1_2_5">"1.2.5
+\u0009- güncellendi Rusça çeviri (Олег Глядков sayesinde)"</string>
+    <string name="changelog_1_3">"1.3
+\u0009- bazı ROMlarda sabit genişletilmiş masaüstü modu
+\u0009- dokunmatik alan konumu ve genişliğini değiştirmek için bir seçenek"</string>
+    <string name="changelog_1_3_1">"1.3.1
+\u0009- İtalyanca çeviri (neo_user sayesinde)
+\u0009- bazı ROMlarda sabit genişletilmiş masaüstü modu
+\u0009- diğer küçük düzeltmeler"</string>
+    <string name="changelog_1_3_2">"1.3.2
+\u0009- macarca çeviri (gidano sayesinde)
+\u0009- güncellenmiş çeviriler"</string>
+    <string name="changelog_1_3_3">"1.3.3
+\u0009- güncellenmiş çeviriler
+\u0009- sabit hata"</string>
+    <string name="changelog_1_3_4">"1.3.4
+\u0009- slovakça çeviri (pyler sayesinde)
+\u0009- güncellenmiş çeviriler"</string>
+    <string name="changelog_1_3_5">"1.3.5
+\u0009- SwipeStatusBar sistemi tarafından unkillable olmalıdır
+\u0009- romen çeviri (Mihai Zavoian sayesinde)
+\u0009- Sabit küçük hata"</string>
+    <string name="changelog_1_3_6">"1.3.6
+\u0009- İbranice çeviri (Elyashiv Sabach sayesinde)
+\u0009- Fransızca çeviri (Mistermatt007 sayesinde)
+\u0009- android Yedekleme Servisi için destek eklendi
+\u0009- AOKP ROM ile uyumluluk
+\u0009- in-app fatura olmadan ülkede sabit hata
+\u0009- durum çubuğu bazı cihazlarda slayt değil sabit davranış
+\u0009- tam ekran uygulamalarda sabit davranış
+\u0009- güncellenmiş çeviriler
+\u0009- diğer küçük değişiklikler"</string>
+    <string name="changelog_1_3_7">"1.3.7
+\u0009- gezinti çubuğu görünür sabit hata"</string>
+    <string name="changelog_1_3_8">"1.3.8
+\u0009- slovence çeviri (lukc Orglce sayesinde)
+\u0009- yüksek hassasiyet ve tam ekran uygulamaları ile sabit davranış"</string>
+    <string name="changelog_1_3_9">"1.3.9
+\u0009- hata düzeltmeleri
+\u0009- çince çeviri (Lam Tsz Ki sayesinde)"</string>
+    <string name="changelog_1_4">"1.4
+\u0009- bazı cihazlarda sabit hareket
+\u0009- daha iyi uyumluluk için eklenen alternatif bir mod
+\u0009- önyükleme seçeneği kaldırıldı"</string>
+    <string name="changelog_1_4_1">"1.4.1
+\u0009- güncellenmiş çeviriler
+\u0009- hata düzeltmeleri"</string>
+    <string name="changelog_1_4_2">"1.4.2
+\u0009- doğru alternatif modu"</string>
+    <string name="changelog_1_4_3">"1.4.3
+\u0009- hareket alanı genişliği
+\u0009- ekran kapalı iken uyandırma devre dışı
+\u0009- güncellenmiş çeviriler"</string>
+    <string name="changelog_1_4_4">"1.4.4
+\u0009- güncellenmiş çeviriler
+\u0009- kod temizleme"</string>
+
+</resources>

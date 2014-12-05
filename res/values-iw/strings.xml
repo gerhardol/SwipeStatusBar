@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">הפעל את SwipeStatusBar</string>
+    <string name="pref_start_service_summary">הצג את ההתראות או את שורת ההגדרות המהירות על ידי מחווה פשוטה</string>
+    <string name="pref_general_settings">הגדרות כלליות</string>
+    <string name="pref_vibrate">משוב רטט</string>
+    <string name="pref_vibrate_summary">הפעל רטט בעת החלקה של ההתראות את ההגדרות המהירות</string>
+    <string name="pref_multi_touch">מחוות רב-מגע</string>
+    <string name="pref_multi_touch_summary_on">החלקה למטה עם 2 אצבעות</string>
+    <string name="pref_multi_touch_summary_off">החלקה למטה עם אצבע אחת</string>
+    <string name="pref_expand_settings">הפעל את מסך ההגדרות המהירות</string>
+    <string name="pref_expand_settings_on">החלק מצד שמאל כדי להציג את ההתראות, החלק מימין כדי להציג את ההגדרות המהירות</string>
+    <string name="pref_expand_settings_off">כל האיזור בשביל מסך ההתראות</string>
+    <string name="pref_expand_settings_error">התכונה הזאת לא נתמכת על ידי המכשיר שלך (דרוש אנדרואיד 4.2 ומעלה)</string>
+    <string name="pref_try_it">ניסוי</string>
+    <string name="pref_try_it_summary">נסה את מחוות ההחלקה, התאם את הרגישות ושנה את הרוחב המיקום והאיזור של המחווה</string>
+    <string name="pref_others">שונות</string>
+    <string name="pref_bug_suggestions">צור קשר עם המפתח</string>
+    <string name="pref_bug_suggestions_summary">מצאת באג או יש לך רעיונות והצעות לשיפור של היישום?</string>
+    <string name="pref_donate">תרומה</string>
+    <string name="pref_donate_summary">אם אתה אוהב את היישום הזה אנא שקול לתרום למפתח</string>
+    <string name="pref_about">אודות</string>
+    <string name="test_swipe_sensitivity">התאם רגישות</string>
+    <string name="app_descriptions">כלי שמאפשר לך גישה מהירה להתראות ולהגדרות המהירות על ידי מחווה של החלקה במצב של מסך מלא.</string>
+    <string name="app_author">מפתח</string>
+    <string name="app_translation">מתרגמים</string>
+    <string name="app_version">גרסה:</string>
+    <string name="donate_small">תרומה קטנה</string>
+    <string name="donate_medium">תרומה בינונית</string>
+    <string name="donate_large">תרומה גדולה</string>
+    <string name="donate_successful">תודה לך על התרומה! אולי תרצה לנסות את המחוות שוב!</string>
+    <string name="button_ok">אישור</string>
+    <string name="button_cancel">ביטול</string>
+    <string name="pref_show_only">הצג בלבד</string>
+    <string name="pref_show_only_on">מציג רק את שורת המצב</string>
+    <string name="pref_show_only_off">שורת ההתראות תגלל למטה</string>
+    <string name="pref_vibrate_strength">חוזק משוב רטט</string>
+    <string name="pref_vibrate_strength_summary">החוזק של משוב הרטט כאשר שורת ההתראות נגללת למטה</string>
+    <string name="app_changelog">יומן שינויים</string>
+    <string name="pref_swipe_width">רוחב האיזור</string>
+    <string name="pref_swipe_position">מיקום האיזור</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Включить SwipeStatusBar</string>
+    <string name="pref_start_service_summary">открывает уведомления или быстрые настройки жестом</string>
+    <string name="pref_alternative_mode">Альтернативный режим</string>
+    <string name="pref_alternative_mode_summary">У вас проблемы с функциональностью? Можно попробовать альтернативный режим</string>
+    <string name="pref_general_settings">Общие настройки</string>
+    <string name="pref_vibrate">Тактильная отдача</string>
+    <string name="pref_vibrate_summary">Вибрировать при открытии уведомлений или быстрых настроек</string>
+    <string name="pref_multi_touch">Использование жестов</string>
+    <string name="pref_multi_touch_summary_on">Провести вниз двумя пальцами</string>
+    <string name="pref_multi_touch_summary_off">Провести вниз одним пальцем</string>
+    <string name="pref_expand_settings">Область жеста</string>
+    <string name="pref_expand_settings_on">Жест слева открывает уведомления, жест справа - быстрые настройки</string>
+    <string name="pref_expand_settings_off">Вся область для уведомлений</string>
+    <string name="pref_expand_settings_error">Эта функция не поддерживается вашим устройством (требуется Android 4.2 или выше)</string>
+    <string name="pref_try_it">Тест</string>
+    <string name="pref_try_it_summary">Тест жеста и регулировка чувствительности</string>
+    <string name="pref_others">Другое</string>
+    <string name="pref_bug_suggestions">Связаться с автором</string>
+    <string name="pref_bug_suggestions_summary">Вы нашли какие-либо ошибки или есть предложения?</string>
+    <string name="pref_donate">Пожертвовать</string>
+    <string name="pref_donate_summary">Если Вам нравится данное приложение, Вы можете сделать пожертвование</string>
+    <string name="pref_about">О программе</string>
+    <string name="test_swipe_sensitivity">Чувствительность</string>
+    <string name="app_descriptions">* Утилита для быстрого доступа к уведомлениям или панели быстрой настройки с помощью жеста в любом полноэкранном приложений *</string>
+    <string name="app_author">Об авторе</string>
+    <string name="app_translation">Переводчики</string>
+    <string name="app_version">Версия:</string>
+    <string name="donate_small">Маленький подарок</string>
+    <string name="donate_medium">Средний подарок</string>
+    <string name="donate_large">Большой подарок</string>
+    <string name="donate_successful">Спасибо за пожертвование! Возможно вы хотите проверить жест снова?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="pref_show_only">Действие</string>
+    <string name="pref_show_only_on">Выводить только строку состояния</string>
+    <string name="pref_show_only_off">Раскрывать шторку полностью</string>
+    <string name="pref_vibrate_strength">Сила вибрации</string>
+    <string name="pref_vibrate_strength_summary">Установите силу вибрации при раскрытии</string>
+    <string name="app_changelog">Список изменений</string>
+    <string name="pref_swipe_width">"Ширина области"</string>
+    <string name="pref_swipe_position">"Позиция области"</string>
+
+</resources>

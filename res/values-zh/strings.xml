@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">啟動 SwipeStatusBar</string>
+    <string name="pref_start_service_summary">以簡單的手勢來顯示通知面板或快速設定面板</string>
+    <string name="pref_alternative_mode">備用模式</string>
+    <string name="pref_alternative_mode_summary">如果你認為功能上有問題，你可以試一試備用模式。</string>
+    <string name="pref_general_settings">一般設定</string>
+    <string name="pref_vibrate">振動感應</string>
+    <string name="pref_vibrate_summary">拉下通知面板或快速設定面板時震動</string>
+    <string name="pref_multi_touch">多點觸控手勢</string>
+    <string name="pref_multi_touch_summary_on">兩指向下滑動</string>
+    <string name="pref_multi_touch_summary_off">一指向下滑動</string>
+    <string name="pref_expand_settings">啟用快速設定面板</string>
+    <string name="pref_expand_settings_on">在左邊拉下通知面板，在右邊拉下快速設定面板。</string>
+    <string name="pref_expand_settings_off">整個範圍是拉下通知面板</string>
+    <string name="pref_expand_settings_error">此功能不適用於你的設備 （需要 Android 4.2 或更高）</string>
+    <string name="pref_try_it">試一試</string>
+    <string name="pref_try_it_summary">試試滑動手勢來調整靈敏度及手勢範圍的寬度和位置</string>
+    <string name="pref_others">其他</string>
+    <string name="pref_bug_suggestions">聯絡作者</string>
+    <string name="pref_bug_suggestions_summary">如果你發現了任何問題或你對 SwipeStatusBar 有任何意見，請聯絡作者。</string>
+    <string name="pref_donate">捐贈</string>
+    <string name="pref_donate_summary">如果你喜歡這個應用程式，請支持開發者。</string>
+    <string name="pref_about">關於</string>
+    <string name="test_swipe_sensitivity">調整靈敏度</string>
+    <string name="app_descriptions">這是讓你在全屏應用程式使用輕掃手勢快速訪問通知面板或快速設定面板的實用工具。</string>
+    <string name="app_author">作者</string>
+    <string name="app_translation">翻譯者</string>
+    <string name="app_version">版本：</string>
+    <string name="donate_small">小禮物</string>
+    <string name="donate_medium">中禮物</string>
+    <string name="donate_large">大禮物</string>
+    <string name="donate_successful">謝謝你的禮物！也許你會喜歡再次測試手勢！</string>
+    <string name="button_ok">確定</string>
+    <string name="button_cancel">取消</string>
+    <string name="pref_show_only">只顯示</string>
+    <string name="pref_show_only_on">只顯示狀態列</string>
+    <string name="pref_show_only_off">完全拉下狀態列</string>
+    <string name="pref_vibrate_strength">振動感應強度</string>
+    <string name="pref_vibrate_strength_summary">調整拉下狀態列時振動的大小</string>
+    <string name="app_changelog">更新記錄</string>
+    <string name="pref_swipe_width">滑動手勢範圍寬度</string>
+    <string name="pref_swipe_position">滑動手勢範圍位置</string>
+	
+    <!-- developer settings -->
+    <string name="pref_dev_title">開發者設定</string>
+    <string name="pref_dev_summary">Continue only if you know what you\'re doing!</string>
+    <string name="pref_permanent_visibility">Permanent visibility</string>
+    <string name="pref_permanent_visibility_summary">Permanent visibility of touch area</string>
+    <string name="pref_check_life_interval">Check life interval</string>
+    <string name="pref_check_life_interval_summary">Interval to check if service who cares about touch gesture live</string>
+    <string name="pref_language">語言</string>
+    <string name="pref_language_summary">更改應用程式的語言</string>
+
+</resources>

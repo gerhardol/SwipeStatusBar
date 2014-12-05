@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Enable SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Show notification or quick settings panel with a simple gesture</string>
+    <string name="pref_alternative_mode">Alternative mode</string>
+    <string name="pref_alternative_mode_summary">Do you have problem with functionality? You can try alternative mode</string>
+    <string name="pref_general_settings">General settings</string>
+    <string name="pref_vibrate">Vibration feedback</string>
+    <string name="pref_vibrate_summary">Vibrate when swiping down the notification or quick settings panel</string>
+    <string name="pref_multi_touch">Multitouch gesture</string>
+    <string name="pref_multi_touch_summary_on">Swipe down with two fingers</string>
+    <string name="pref_multi_touch_summary_off">Swipe down with one finger</string>
+    <string name="pref_expand_settings">Enable quick settings panel</string>
+    <string name="pref_expand_settings_on">Swipe from left to show notifications, swipe from right to show quick settings</string>
+    <string name="pref_expand_settings_off">Whole area is for notification panel</string>
+    <string name="pref_expand_settings_error">This feature is not supported by your device (Android 4.2 or higher required)</string>
+    <string name="pref_try_it">Try it</string>
+    <string name="pref_try_it_summary">Try the swipe gesture, adjust sensitivity and change gesture area\'s width and position</string>
+    <string name="pref_others">Others</string>
+    <string name="pref_bug_suggestions">Contact the author</string>
+    <string name="pref_bug_suggestions_summary">Did you find a bug or do you have ideas or suggestions to improve the application?</string>
+    <string name="pref_donate">Donate</string>
+    <string name="pref_donate_summary">If you like this application please consider supporting the developer</string>
+    <string name="pref_about">About</string>
+    <string name="test_swipe_sensitivity">Adjust sensitivity</string>
+    <string name="app_descriptions">Utility for fast access to notification or quick settings panel using swipe gestures from fullscreen applications.</string>
+    <string name="app_author">Author</string>
+    <string name="app_translation">Translators</string>
+    <string name="app_version">Version:</string>
+    <string name="donate_small">Small gift</string>
+    <string name="donate_medium">Medium gift</string>
+    <string name="donate_large">Large gift</string>
+    <string name="donate_successful">Thank you for your gift! Maybe you would like to test the gesture again!</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="pref_show_only">Show only</string>
+    <string name="pref_show_only_on">The status bar is only displayed</string>
+    <string name="pref_show_only_off">Status bar is fully pull down</string>
+    <string name="pref_vibrate_strength">Vibration feedback strength</string>
+    <string name="pref_vibrate_strength_summary">Intensity of vibration feedback when status bar is pulled down</string>
+    <string name="app_changelog">Changelog</string>
+    <string name="pref_swipe_width">Area width</string>
+    <string name="pref_swipe_position">Area position</string>
+    <string name="pref_show_status_bar">Show status bar permanently</string>
+    <string name="pref_show_status_bar_summary">Status bar will be permanently visible</string>
+
+    <!-- developer settings -->
+    <string name="pref_dev_title">Developer settings</string>
+    <string name="pref_dev_summary">Continue only if you know what you\'re doing!</string>
+    <string name="pref_permanent_visibility">Permanent visibility</string>
+    <string name="pref_permanent_visibility_summary">Permanent visibility of touch area</string>
+    <string name="pref_check_life_interval">Check life interval</string>
+    <string name="pref_check_life_interval_summary">Interval to check if service who cares about touch gesture live</string>
+    <string name="pref_language">Language</string>
+    <string name="pref_language_summary">Change language of application</string>
+
+</resources>

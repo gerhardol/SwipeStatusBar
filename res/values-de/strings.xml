@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- strings -->
+    <string name="pref_start_service">SwipeStatusBar einschalten</string>
+    <string name="pref_start_service_summary">Anzeigen der Benachrichtigungsleiste und der Schnelleinstellungen durch eine einfache Geste</string>
+    <string name="pref_alternative_mode">Alternativer Modus</string>
+    <string name="pref_alternative_mode_summary">Funktioniert etwas nicht? Probiere den alternativen Modus</string>
+    <string name="pref_general_settings">Allgemeine Einstellungen</string>
+    <string name="pref_vibrate">Vibrationsfeedback</string>
+    <string name="pref_vibrate_summary">Vibrieren wenn Benachrichtigungsleiste und der Schnelleinstellungen nach unten gezogen werden</string>
+    <string name="pref_multi_touch">Multitouch-Geste</string>
+    <string name="pref_multi_touch_summary_on">Zweifingergeste benötigt für nach unten ziehen der Benachrichtigungsleiste und der Schnelleinstellungen</string>
+    <string name="pref_multi_touch_summary_off">Benachrichtigungsleiste und der Schnelleinstellungen können mit einem Finger nach unten gezogen werden</string>
+    <string name="pref_expand_settings">Schnelleinstellungen aktivieren</string>
+    <string name="pref_expand_settings_on">Wischen von links zeigt Benachrichtigungen, wischen von recht zeigt Schnelleinstellungen</string>
+    <string name="pref_expand_settings_off">Gesamter Bereich für Benachrichtigungen</string>
+    <string name="pref_expand_settings_error">Nicht unterstützt (Android 4.2 oder höher erforderlich)</string>
+    <string name="pref_try_it">Testen</string>
+    <string name="pref_try_it_summary">Teste die Wischgeste, stelle die Empfindlichkeit ein und ändere Gestenbereich und -Position</string>
+    <string name="pref_others">Sonstiges</string>
+    <string name="pref_bug_suggestions">Kontakt zum Autor</string>
+    <string name="pref_bug_suggestions_summary">Haben Sie Fehler gefunden oder Anregungen?</string>
+    <string name="pref_donate">Spenden</string>
+    <string name="pref_donate_summary">Wenn Sie die App mögen, können Sie sie unterstützen</string>
+    <string name="pref_about">Über</string>
+    <string name="test_swipe_sensitivity">Empfindlichkeit einstellen</string>
+    <string name="app_descriptions">Werkzeug für den schnellen Zugriff per Wischgeste auf Benachrichtigungen oder Schnelleinstellungen aus Vollbild-Apps heraus.</string>
+    <string name="app_author">Autor</string>
+    <string name="app_translation">Übersetzer</string>
+    <string name="app_version">Version:</string>
+    <string name="donate_small">Kleine Spende</string>
+    <string name="donate_medium">Mittlere Spende</string>
+    <string name="donate_large">Große Spende</string>
+    <string name="donate_successful">Danke für Ihre Spende! Vielleicht wollen Sie die Geste nochmals versuchen?!</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Abbruch</string>
+    <string name="pref_show_only">Anzeige</string>
+    <string name="pref_show_only_on">Statusleiste nur anzeigen</string>
+    <string name="pref_show_only_off">Statusleiste wird vollständig dargestellt</string>
+    <string name="pref_vibrate_strength">Vibrationsstärke</string>
+    <string name="pref_vibrate_strength_summary">Stärke der Vibration wenn die Statusleiste runtergezogen wird</string>
+    <string name="app_changelog">Änderungen</string>
+    <string name="pref_swipe_width">Breite des Bereichs</string>
+    <string name="pref_swipe_position">Position des Bereichs</string>
+
+</resources>

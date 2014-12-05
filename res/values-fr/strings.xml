@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Activer SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Affiches les notifications ou l’accès rapide d’un simple geste</string>
+    <string name="pref_alternative_mode">Mode alternatif</string>
+    <string name="pref_alternative_mode_summary">Vous avez un problème avec une fonctionnalité ? Vous pouvez essayer le mode alternatif</string>
+    <string name="pref_general_settings">Réglages généraux</string>
+    <string name="pref_vibrate">Retour haptique</string>
+    <string name="pref_vibrate_summary">Le terminal vibrera si les notifications sont déployées</string>
+    <string name="pref_multi_touch">Gestes Multi-Touch</string>
+    <string name="pref_multi_touch_summary_on">Dérouler avec deux doigts</string>
+    <string name="pref_multi_touch_summary_off">Dérouler avec un doigt</string>
+    <string name="pref_expand_settings">ACtiver le panneau de réglages rapides</string>
+    <string name="pref_expand_settings_on">Glissez depuis la gauche vers le bas pour les notifications, glissez vers le bas depuis la droite pour les réglages rapides</string>
+    <string name="pref_expand_settings_off">Tout cette surface est le panneau de notification</string>
+    <string name="pref_expand_settings_error">Cette fonctionnalité n’est pas compatible avec votre appreil (Android 4.2 ou supérieur requis)</string>
+    <string name="pref_try_it">Essayez le</string>
+    <string name="pref_try_it_summary">Essayez le geste de glissé, ajustez la sensibilité et changez la hauteur et l’emplacement de la surface de glissé. </string>
+    <string name="pref_others">Autres</string>
+    <string name="pref_bug_suggestions">Contactez l’auteur</string>
+    <string name="pref_bug_suggestions_summary">Vous avez trouvé un bug ou vous avez des idées et des suggestions pour améliorer l’application ?</string>
+    <string name="pref_donate">Faire un don</string>
+    <string name="pref_donate_summary">Si vous aimez cette application,pensez à faire un don au développeur.</string>
+    <string name="pref_about">A propost</string>
+    <string name="test_swipe_sensitivity">Ajuster la sensibilité</string>
+    <string name="app_descriptions">Un utilitaire qui permet un accès rapide aux notifications et aux réglages rapides et utilisant des gestes de glissé depuis les applications plein écran.</string>
+    <string name="app_author">Auteurr</string>
+    <string name="app_translation">Traducteurs</string>
+    <string name="app_version">Version:</string>
+    <string name="donate_small">Petit cadeau</string>
+    <string name="donate_medium">Cadeau moyen</string>
+    <string name="donate_large">Groscadeau</string>
+    <string name="donate_successful">Merci de votre cadeau ! Peut être que vous voudrez tester le geste à nouveau !</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="pref_show_only">Montrer seulement</string>
+    <string name="pref_show_only_on">Seule la barre de statu sera affichée</string>
+    <string name="pref_show_only_off">La barre de statut sera entièrement déployée</string>
+    <string name="pref_vibrate_strength">Force du retour haptique</string>
+    <string name="pref_vibrate_strength_summary">Intensité du retour haptique quand la barre de statut est déployée</string>
+    <string name="app_changelog">ChangeLog</string>
+    <string name="pref_swipe_width">Largeur de la zone</string>
+    <string name="pref_swipe_position">Position dela zone</string>
+
+</resources>

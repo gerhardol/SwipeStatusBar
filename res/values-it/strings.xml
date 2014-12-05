@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Attiva SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Mostra il pannello delle notifiche o delle impostazioni rapide con un semplice gesto</string>
+    <string name="pref_alternative_mode">Modalità alternativa</string>
+    <string name="pref_alternative_mode_summary">Hai problemi con qualche funzionalità? Prova la modalità alternativa</string>
+    <string name="pref_general_settings">Impostazioni generali</string>
+    <string name="pref_vibrate">Feedback tattile</string>
+    <string name="pref_vibrate_summary">Vibra quando viene abbassato il pannello delle notifiche o delle impostazioni rapide</string>
+    <string name="pref_multi_touch">Multitouch</string>
+    <string name="pref_multi_touch_summary_on">Trascina verso il basso con due dita</string>
+    <string name="pref_multi_touch_summary_off">Trascina verso il basso con un solo dito</string>
+    <string name="pref_expand_settings">Mostra anche il pannello delle impostazioni rapide</string>
+    <string name="pref_expand_settings_on">Trascina verso il basso la parte sinistra per vedere le notifiche, quella destra per vedere le impostazioni rapide</string>
+    <string name="pref_expand_settings_off">Il trascinamento verso il basso mostra solo il pannello delle notifiche</string>
+    <string name="pref_expand_settings_error">Questa funzione non è supportata dal tuo dispositivo (è necessario Android 4.2 o superiore)</string>
+    <string name="pref_try_it">Fai una prova</string>
+    <string name="pref_try_it_summary">Prova il trascinamento, regola la sensibilità e cambia la larghezza e la posizione dell\'area trascinabile</string>
+    <string name="pref_others">Altro</string>
+    <string name="pref_bug_suggestions">Contatta l\'autore dell\'app</string>
+    <string name="pref_bug_suggestions_summary">Hai riscontrato un problema o hai idee o suggerimenti per migliorare l\'app?</string>
+    <string name="pref_donate">Fai una donazione</string>
+    <string name="pref_donate_summary">Se questa applicazione ti piace, per favore considera la possibilità di supportare il lavoro dello sviluppatore</string>
+    <string name="pref_about">Info</string>
+    <string name="test_swipe_sensitivity">Regola la sensibilità</string>
+    <string name="app_descriptions">Utility che consente di accedere con un semplice gesto al pannello delle notifiche o delle impostazioni rapide mentre sono attive applicazioni a schermo intero.</string>
+    <string name="app_author">Autore</string>
+    <string name="app_translation">Traduttori</string>
+    <string name="app_version">Versione:</string>
+    <string name="donate_small">Donazione minima</string>
+    <string name="donate_medium">Donazione intermedia</string>
+    <string name="donate_large">Donazione massima</string>
+    <string name="donate_successful">Grazie per la donazione! Hai forse voglia di provare ancora il trascinamento?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">No</string>
+    <string name="pref_show_only">Mostra solo la barra di stato</string>
+    <string name="pref_show_only_on">Il trascinamento verso il basso mostra solo la barra di stato</string>
+    <string name="pref_show_only_off">Il trascinamento verso il basso mostra per intero il pannello delle notifiche (o quello delle impostazioni rapide)</string>
+    <string name="pref_vibrate_strength">Intensità della vibrazione</string>
+    <string name="pref_vibrate_strength_summary">Regola l\'intensità del feedback tattile legato al trascinamento verso il basso della barra di stato</string>
+    <string name="app_changelog">Changelog</string>
+    <string name="pref_swipe_width">Larghezza dell\'area trascinabile</string>
+    <string name="pref_swipe_position">Posizione dell\'area trascinabile</string>
+
+</resources>

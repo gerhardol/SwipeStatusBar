@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Etkinleştir</string>
+    <string name="pref_start_service_summary">Basit bir hareket ile bildirim veya hızlı ayarlar panelini göster</string>
+    <string name="pref_alternative_mode">Alternatif mod</string>
+    <string name="pref_alternative_mode_summary">İşlevselliği ile sorununuz var mı? Alternatif modunu deneyebilirsiniz</string>
+    <string name="pref_general_settings">Genel ayarlar</string>
+    <string name="pref_vibrate">Titreşim geri bildirimi</string>
+    <string name="pref_vibrate_summary">Bildirim veya hızlı ayarlar panelini aşağı kaydırma titreşimi</string>
+    <string name="pref_multi_touch">Çoklu dokunmatik hareketi</string>
+    <string name="pref_multi_touch_summary_on">İki parmak ile aşağı kaydırın</string>
+    <string name="pref_multi_touch_summary_off">Bir parmak ile aşağı kaydırın</string>
+    <string name="pref_expand_settings">Hızlı ayarlar panelini etkinleştirin</string>
+    <string name="pref_expand_settings_on">Hızlı ayarları göstermek için sağdan bildirimleri, dokunarak göstermek için sola doğru kaydırın</string>
+    <string name="pref_expand_settings_off">Bütün alan bildirim paneli için</string>
+    <string name="pref_expand_settings_error">Bu özellik cihazınız (Android 4.2 veya üstü gerekir) tarafından desteklenmiyor</string>
+    <string name="pref_try_it">Deneyin</string>
+    <string name="pref_try_it_summary">Dokunma hareketini deneyin. Duyarlılığını ayarlama, hareket alanı genişliğini ve konumunu değiştirme</string>
+    <string name="pref_others">Diğerleri</string>
+    <string name="pref_bug_suggestions">Yazarına başvurun</string>
+    <string name="pref_bug_suggestions_summary">Eğer bir hata bulduysanız, yada uygulamayı geliştirmek için fikir ve önerileriniz var mı?</string>
+    <string name="pref_donate">Bağış</string>
+    <string name="pref_donate_summary">Eğer bu uygulamayı geliştirmek isterseniz geliştirici için destekte bulunun lütfen</string>
+    <string name="pref_about">Hakkında</string>
+    <string name="test_swipe_sensitivity">Hassasiyet ayarı</string>
+    <string name="app_descriptions">Tam ekran uygulamaları dokunma hareketlerini kullanarak bildirim veya hızlı ayarlar paneline erişimenize yarar</string>
+    <string name="app_author">Yazar</string>
+    <string name="app_translation">Çevirmenler</string>
+    <string name="app_version">Versiyon:</string>
+    <string name="donate_small">Küçük hediye</string>
+    <string name="donate_medium">Orta hediye</string>
+    <string name="donate_large">Büyük hediye</string>
+    <string name="donate_successful">Hediyeniz için teşekkür ederiz! Belki yine hareket etmek istiyorum</string>
+    <string name="button_ok">Tamam</string>
+    <string name="button_cancel">İptal</string>
+    <string name="pref_show_only">Yalnızca göster</string>
+    <string name="pref_show_only_on">Durum çubuğu yalnızca görüntülenir</string>
+    <string name="pref_show_only_off">Durum çubuğunu tamamen aşağı çekmelisin</string>
+    <string name="pref_vibrate_strength">Titreşim geri bildirim gücü</string>
+    <string name="pref_vibrate_strength_summary">Durum çubuğu aşağıya çekilirken geri bildirim titreşim Şiddeti</string>
+    <string name="app_changelog">Değişiklikler</string>
+    <string name="pref_swipe_width">Alan genişliği</string>
+    <string name="pref_swipe_position">Alan pozisyonu</string>
+    <string name="pref_dev_title">Geliştirici ayarları</string>
+    <string name="pref_dev_summary">Eğer ne yaptığınızı biliyorsanız sadece devam edin</string>
+    <string name="pref_permanent_visibility">Kalıcı görünürlük</string>
+    <string name="pref_permanent_visibility_summary">Dokunmatik alanda kalıcı görünürlüğü</string>
+    <string name="pref_check_life_interval">Hayat aralığını kontrol edin</string>
+    <string name="pref_check_life_interval_summary">Dokunma hizmet olmama kontrol aralığı</string>
+    <string name="pref_language">Dil</string>
+    <string name="pref_language_summary">Uygulamanın dilini değiştir</string>
+    <string name="app_name">SwipeStatusBar</string>
+    <string name="app_name_space">Swipe Status Bar</string>
+    <string name="email_report_email">chladektomas@gmail.com</string>
+    <string name="email_subject">SwipeStatusBar</string>
+    <string name="image">Resim</string>
+
+</resources>

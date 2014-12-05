@@ -1,0 +1,161 @@
+cz.chladek.android.preferences.BlinkingPreference
+cz.chladek.android.preferences.BlinkingPreference: BlinkingPreference(android.content.Context,android.util.AttributeSet)
+cz.chladek.android.preferences.BlinkingPreference: BlinkingPreference(android.content.Context)
+cz.chladek.android.preferences.BlinkingPreference: BlinkingPreference(android.content.Context,android.util.AttributeSet,int)
+cz.chladek.swipe_status_bar.BootReceiver
+cz.chladek.swipe_status_bar.BootReceiver: BootReceiver()
+cz.chladek.swipe_status_bar.MainActivity
+cz.chladek.swipe_status_bar.MainActivity: MainActivity()
+cz.chladek.swipe_status_bar.MyBackupAgent
+cz.chladek.swipe_status_bar.MyBackupAgent: MyBackupAgent()
+cz.chladek.swipe_status_bar.R$array: int array_language
+cz.chladek.swipe_status_bar.R$array: int array_language_values
+cz.chladek.swipe_status_bar.R$array: int check_life_interval
+cz.chladek.swipe_status_bar.R$array: int check_life_interval_values
+cz.chladek.swipe_status_bar.R$attr: int delay
+cz.chladek.swipe_status_bar.R$attr: int duration
+cz.chladek.swipe_status_bar.R$attr: int endColor
+cz.chladek.swipe_status_bar.R$attr: int repeatCount
+cz.chladek.swipe_status_bar.R$attr: int startColor
+cz.chladek.swipe_status_bar.R$drawable: int arrow
+cz.chladek.swipe_status_bar.R$drawable: int gift_large
+cz.chladek.swipe_status_bar.R$drawable: int gift_medium
+cz.chladek.swipe_status_bar.R$drawable: int gift_small
+cz.chladek.swipe_status_bar.R$drawable: int ic_launcher
+cz.chladek.swipe_status_bar.R$id: int arePositionTV
+cz.chladek.swipe_status_bar.R$id: int areaPositionSB
+cz.chladek.swipe_status_bar.R$id: int areaWidthSB
+cz.chladek.swipe_status_bar.R$id: int areaWidthTV
+cz.chladek.swipe_status_bar.R$id: int gift_large_iv
+cz.chladek.swipe_status_bar.R$id: int gift_medium_iv
+cz.chladek.swipe_status_bar.R$id: int gift_small_iv
+cz.chladek.swipe_status_bar.R$id: int image
+cz.chladek.swipe_status_bar.R$id: int linearLayout1
+cz.chladek.swipe_status_bar.R$id: int swipeSensitivity
+cz.chladek.swipe_status_bar.R$id: int swipeSensitivitySB
+cz.chladek.swipe_status_bar.R$layout: int test_screen_layout
+cz.chladek.swipe_status_bar.R$string: int app_author
+cz.chladek.swipe_status_bar.R$string: int app_author_name
+cz.chladek.swipe_status_bar.R$string: int app_changelog
+cz.chladek.swipe_status_bar.R$string: int app_descriptions
+cz.chladek.swipe_status_bar.R$string: int app_name
+cz.chladek.swipe_status_bar.R$string: int app_name_space
+cz.chladek.swipe_status_bar.R$string: int app_translation
+cz.chladek.swipe_status_bar.R$string: int app_translation_names
+cz.chladek.swipe_status_bar.R$string: int app_version
+cz.chladek.swipe_status_bar.R$string: int button_cancel
+cz.chladek.swipe_status_bar.R$string: int button_ok
+cz.chladek.swipe_status_bar.R$string: int changelog_1_0
+cz.chladek.swipe_status_bar.R$string: int changelog_1_0_1
+cz.chladek.swipe_status_bar.R$string: int changelog_1_0_2
+cz.chladek.swipe_status_bar.R$string: int changelog_1_1
+cz.chladek.swipe_status_bar.R$string: int changelog_1_2
+cz.chladek.swipe_status_bar.R$string: int changelog_1_2_1
+cz.chladek.swipe_status_bar.R$string: int changelog_1_2_2
+cz.chladek.swipe_status_bar.R$string: int changelog_1_2_3
+cz.chladek.swipe_status_bar.R$string: int changelog_1_2_4
+cz.chladek.swipe_status_bar.R$string: int changelog_1_2_5
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_1
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_2
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_3
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_4
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_5
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_6
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_7
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_8
+cz.chladek.swipe_status_bar.R$string: int changelog_1_3_9
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4_1
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4_2
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4_3
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4_4
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4_5
+cz.chladek.swipe_status_bar.R$string: int changelog_1_4_6
+cz.chladek.swipe_status_bar.R$string: int changelog_1_5
+cz.chladek.swipe_status_bar.R$string: int donate_large
+cz.chladek.swipe_status_bar.R$string: int donate_medium
+cz.chladek.swipe_status_bar.R$string: int donate_small
+cz.chladek.swipe_status_bar.R$string: int donate_successful
+cz.chladek.swipe_status_bar.R$string: int donation_large
+cz.chladek.swipe_status_bar.R$string: int donation_medium
+cz.chladek.swipe_status_bar.R$string: int donation_small
+cz.chladek.swipe_status_bar.R$string: int email_report_email
+cz.chladek.swipe_status_bar.R$string: int email_subject
+cz.chladek.swipe_status_bar.R$string: int image
+cz.chladek.swipe_status_bar.R$string: int licence_key
+cz.chladek.swipe_status_bar.R$string: int pref_about
+cz.chladek.swipe_status_bar.R$string: int pref_alternative_mode
+cz.chladek.swipe_status_bar.R$string: int pref_alternative_mode_summary
+cz.chladek.swipe_status_bar.R$string: int pref_bug_suggestions
+cz.chladek.swipe_status_bar.R$string: int pref_bug_suggestions_summary
+cz.chladek.swipe_status_bar.R$string: int pref_check_life_interval
+cz.chladek.swipe_status_bar.R$string: int pref_check_life_interval_summary
+cz.chladek.swipe_status_bar.R$string: int pref_dev_summary
+cz.chladek.swipe_status_bar.R$string: int pref_dev_title
+cz.chladek.swipe_status_bar.R$string: int pref_donate
+cz.chladek.swipe_status_bar.R$string: int pref_donate_summary
+cz.chladek.swipe_status_bar.R$string: int pref_expand_settings
+cz.chladek.swipe_status_bar.R$string: int pref_expand_settings_error
+cz.chladek.swipe_status_bar.R$string: int pref_expand_settings_off
+cz.chladek.swipe_status_bar.R$string: int pref_expand_settings_on
+cz.chladek.swipe_status_bar.R$string: int pref_general_settings
+cz.chladek.swipe_status_bar.R$string: int pref_key_about
+cz.chladek.swipe_status_bar.R$string: int pref_key_alternative_mode
+cz.chladek.swipe_status_bar.R$string: int pref_key_area_position
+cz.chladek.swipe_status_bar.R$string: int pref_key_area_width
+cz.chladek.swipe_status_bar.R$string: int pref_key_bug_suggestions
+cz.chladek.swipe_status_bar.R$string: int pref_key_check_life_interval
+cz.chladek.swipe_status_bar.R$string: int pref_key_dev_preference
+cz.chladek.swipe_status_bar.R$string: int pref_key_donate
+cz.chladek.swipe_status_bar.R$string: int pref_key_expand_settings
+cz.chladek.swipe_status_bar.R$string: int pref_key_language
+cz.chladek.swipe_status_bar.R$string: int pref_key_multi_touch
+cz.chladek.swipe_status_bar.R$string: int pref_key_others_category
+cz.chladek.swipe_status_bar.R$string: int pref_key_permanent_visibility
+cz.chladek.swipe_status_bar.R$string: int pref_key_show_only
+cz.chladek.swipe_status_bar.R$string: int pref_key_start_service
+cz.chladek.swipe_status_bar.R$string: int pref_key_status_bar_permanent_visibility
+cz.chladek.swipe_status_bar.R$string: int pref_key_swipe_sensitivity
+cz.chladek.swipe_status_bar.R$string: int pref_key_try_it
+cz.chladek.swipe_status_bar.R$string: int pref_key_vibrate
+cz.chladek.swipe_status_bar.R$string: int pref_key_vibrate_strength
+cz.chladek.swipe_status_bar.R$string: int pref_language
+cz.chladek.swipe_status_bar.R$string: int pref_language_summary
+cz.chladek.swipe_status_bar.R$string: int pref_multi_touch
+cz.chladek.swipe_status_bar.R$string: int pref_multi_touch_summary_off
+cz.chladek.swipe_status_bar.R$string: int pref_multi_touch_summary_on
+cz.chladek.swipe_status_bar.R$string: int pref_others
+cz.chladek.swipe_status_bar.R$string: int pref_permanent_visibility
+cz.chladek.swipe_status_bar.R$string: int pref_permanent_visibility_summary
+cz.chladek.swipe_status_bar.R$string: int pref_show_only
+cz.chladek.swipe_status_bar.R$string: int pref_show_only_off
+cz.chladek.swipe_status_bar.R$string: int pref_show_only_on
+cz.chladek.swipe_status_bar.R$string: int pref_show_status_bar
+cz.chladek.swipe_status_bar.R$string: int pref_show_status_bar_summary
+cz.chladek.swipe_status_bar.R$string: int pref_start_service
+cz.chladek.swipe_status_bar.R$string: int pref_start_service_summary
+cz.chladek.swipe_status_bar.R$string: int pref_swipe_position
+cz.chladek.swipe_status_bar.R$string: int pref_swipe_width
+cz.chladek.swipe_status_bar.R$string: int pref_try_it
+cz.chladek.swipe_status_bar.R$string: int pref_try_it_summary
+cz.chladek.swipe_status_bar.R$string: int pref_vibrate
+cz.chladek.swipe_status_bar.R$string: int pref_vibrate_strength
+cz.chladek.swipe_status_bar.R$string: int pref_vibrate_strength_summary
+cz.chladek.swipe_status_bar.R$string: int pref_vibrate_summary
+cz.chladek.swipe_status_bar.R$string: int test_swipe_sensitivity
+cz.chladek.swipe_status_bar.R$style: int Theme_Default
+cz.chladek.swipe_status_bar.R$style: int Theme_Fullscreen
+cz.chladek.swipe_status_bar.R$styleable: int[] BlinkingPreference
+cz.chladek.swipe_status_bar.R$styleable: int BlinkingPreference_delay
+cz.chladek.swipe_status_bar.R$styleable: int BlinkingPreference_duration
+cz.chladek.swipe_status_bar.R$styleable: int BlinkingPreference_endColor
+cz.chladek.swipe_status_bar.R$styleable: int BlinkingPreference_repeatCount
+cz.chladek.swipe_status_bar.R$styleable: int BlinkingPreference_startColor
+cz.chladek.swipe_status_bar.R$xml: int settings_main
+cz.chladek.swipe_status_bar.StatusBarHelperActivity
+cz.chladek.swipe_status_bar.StatusBarHelperActivity: StatusBarHelperActivity()
+cz.chladek.swipe_status_bar.StatusBarService
+cz.chladek.swipe_status_bar.StatusBarService: StatusBarService()
+cz.chladek.swipe_status_bar.TestScreenActivity
+cz.chladek.swipe_status_bar.TestScreenActivity: TestScreenActivity()

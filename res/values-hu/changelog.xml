@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="changelog_1_0">1.0\n\t- első publikus verzió</string>
+    <string name="changelog_1_0_1">1.0.1\n\t- hibajavítás</string>
+    <string name="changelog_1_0_2">1.0.2\n\t- teljesképernyő probléma javítása\n\t- Russian translation</string>
+    <string name="changelog_1_1">1.1\n\t- csak az állapotsáv megjelenítésének lehetősége (lehúzás nélkül)\n\t- German translation (thanks to Helge Foerster)</string>
+    <string name="changelog_1_2">1.2\n\t- updated Russian translation\n\t- Polish translation (thanks to Ostry10)\n\t- rezgés erősség változtatásának lehetősége\n\t- Android 2.2+ kompatibilitás (Nem tudtam kipróbálni, ha bármilyen problémája van kérem lépjen kapcsolatba velem)</string>
+    <string name="changelog_1_2_1">1.2.1\n\t- CM ROM kibővített asztal módban probléma javítása</string>
+    <string name="changelog_1_2_2">1.2.2\n\t- változások listája hozzáadva\n\t- updated translations\n\t- Spanish translation (thanks to Haptein)\n\t- kisebb hibák javítása</string>
+    <string name="changelog_1_2_3">1.2.3\n\t- kisebb fejlesztések</string>
+    <string name="changelog_1_2_4">1.2.4\n\t- viselkedés javítása kevesebb RAM esetén</string>
+    <string name="changelog_1_2_5">1.2.5\n\t- updated Russian translation (thanks to Олег Глядков)</string>
+    <string name="changelog_1_3">1.3\n\t- javítva a kiterjesztett asztali mód hibája néhány ROM esetén\n\t- lehetőség az érintési terület helyzetének és szélességének változtatására</string>
+    <string name="changelog_1_3_1">1.3.1\n\t- Italian translation (thanks to neo_user)\n\t- javítva a kiterjesztett asztali mód hibája néhány ROM esetén\n\t- egyéb kisebb javítások</string>
+
+</resources>

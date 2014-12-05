@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general -->
+    <string name="app_name">SwipeStatusBar</string>
+    <string name="app_name_space">Swipe Status Bar</string>
+    <string name="email_report_email">chladektomas@gmail.com</string>
+    <string name="email_subject">SwipeStatusBar</string>
+    <string name="image">image</string>
+    <string name="app_author_name">Tomáš Chládek</string>
+    <string name="app_translation_names">Олег Глядков (Russian)\nHelge Foerster (German)\nOstry10 (Polish)\nHaptein (Spanish)\nneo_user (Italian)\ngidano (Hungarian)\npyler (Slovak)\nMihai Zavoian (Romanian)\nElyashiv Sabach (Hebrew)\nLukc Orglce (Slovenian)\nLam Tsz Ki (Chinese)\nHakan Güven (Turkish)</string>
+    <string name="licence_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjFTp0rkYgITjqmcP5Db80ROj4G8R2hAu2fRorEqo8R/SdJOHewoICwNPYxY/K6jQjTJP5ilxKdHUDCZzjoVUrSo3iGuRZr5dslyRhc93pCmBho/Fh/w5I0kHFj1yOXwH9wjuS8hPTWOsukmCp7RgFbkzMK1BroPfpKVWXAPBlZPuGeZLMJMM5tew8DtE3TaxUExs4MXHRQg2ihVbJJvYkTot/7AiHn9mYRpmsfY9pY5AxkeCj8jwMclNDISE+Vo3SFoHU9Q2ICPrLamDegwg0V6Nm4qmami+9j9wVEg0GbOrKVuBE3iA5mJyjheTE4pZlrkb1tdwxtuAUEkAFXglRwIDAQAB</string>
+    <string name="donation_small">swipe_status_bar_donate_small</string>
+    <string name="donation_medium">swipe_status_bar_donate_medium</string>
+    <string name="donation_large">swipe_status_bar_donate_large</string>
+
+    <!-- keys -->
+    <string name="pref_key_start_service">startService</string>
+    <string name="pref_key_alternative_mode">alternativeMode</string>
+    <string name="pref_key_vibrate">vibrate</string>
+    <string name="pref_key_multi_touch">multiTouch</string>
+    <string name="pref_key_expand_settings">expandSettings</string>
+    <string name="pref_key_bug_suggestions">bugSuggestions</string>
+    <string name="pref_key_about">about</string>
+    <string name="pref_key_try_it">tryIt</string>
+    <string name="pref_key_swipe_sensitivity">swipeSensitivity</string>
+    <string name="pref_key_donate">donate</string>
+    <string name="pref_key_show_only">showOnly</string>
+    <string name="pref_key_vibrate_strength">vibrateStrength</string>
+    <string name="pref_key_area_width">areaWidth</string>
+    <string name="pref_key_area_position">areaPosition</string>
+    <string name="pref_key_others_category">othersCategory</string>
+    <string name="pref_key_dev_preference">devPreference</string>
+    <string name="pref_key_language">language</string>
+    <string name="pref_key_check_life_interval">checkLifeInterval</string>
+    <string name="pref_key_permanent_visibility">permanentVisibility</string>
+    <string name="pref_key_status_bar_permanent_visibility">statusBarPermanentVisibility</string>
+
+    <!-- arrays -->
+    <string-array name="check_life_interval">
+        <item>500ms</item>
+        <item>1000ms</item>
+        <item>2500ms</item>
+        <item>5000ms</item>
+        <item>10000ms</item>
+        <item>15000ms</item>
+        <item>30000ms</item>
+        <item>60000ms</item>
+    </string-array>
+    <string-array name="check_life_interval_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+    <string-array name="array_language">
+        <item>Default</item>
+        <item>Chinese</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional, Hong Kong)</item>
+        <item>Chinese (Traditional, Taiwan)</item>
+        <item>Czech</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Hebrew</item>
+        <item>Hungarian</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Polish</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Turkish</item>
+    </string-array>
+    <string-array name="array_language_values">
+        <item>*</item>
+        <item>zh</item>
+        <item>zh-cn</item>
+        <item>zh-hk</item>
+        <item>zh-tw</item>
+        <item>cs</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>iw</item>
+        <item>hu</item>
+        <item>it</item>
+        <item>pl</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>tr</item>
+    </string-array>
+
+</resources>

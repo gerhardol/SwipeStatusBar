@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Pornește SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Arată notificările sau setările rapide cu un gest simplu</string>
+    <string name="pref_alternative_mode">Mod alternativ</string>
+    <string name="pref_alternative_mode_summary">Poți încerca această opțiune dacă ai vreo problemă cu funcționalitatea</string>
+    <string name="pref_general_settings">Setări generale</string>
+    <string name="pref_vibrate">Vibrație</string>
+    <string name="pref_vibrate_summary">Vibrează la detectarea gestului de activare a barei de stare</string>
+    <string name="pref_multi_touch">Gest multitouch</string>
+    <string name="pref_multi_touch_summary_on">Glisează cu două degete în jos</string>
+    <string name="pref_multi_touch_summary_off">Glisează cu un deget în jos</string>
+    <string name="pref_expand_settings">Activează panoul de setări rapide</string>
+    <string name="pref_expand_settings_on">Glisează din stânga pentru a arăta notificările, glisează din dreapta pentru setări rapide</string>
+    <string name="pref_expand_settings_off">Toată zona e pentru notificări</string>
+    <string name="pref_expand_settings_error">Funcția nu este acceptată de dispozitivul acesta (Android 4.2 sau versiune mai nouă necesară)</string>
+    <string name="pref_try_it">Testează</string>
+    <string name="pref_try_it_summary">Încearcă gestul de glisare, reglează sensibilitatea și schimbă dimensiunea și poziția zonei gestului</string>
+    <string name="pref_others">Altele</string>
+    <string name="pref_bug_suggestions">Contactează autorul</string>
+    <string name="pref_bug_suggestions_summary">Ai găsit o problemă sau ai o sugestie de îmbunătățire a aplicației?</string>
+    <string name="pref_donate">Donează</string>
+    <string name="pref_donate_summary">Ia în considerare susținerea dezvoltatorului dacă iți place această aplicație</string>
+    <string name="pref_about">Despre</string>
+    <string name="test_swipe_sensitivity">Reglează sensibilitatea</string>
+    <string name="app_descriptions">Utilitate pentru acces rapid la notificări sau setări rapide prin gesturi de glisare din aplicațiile fullscreen.</string>
+    <string name="app_author">Autor</string>
+    <string name="app_translation">Traducători</string>
+    <string name="app_version">Versiune:</string>
+    <string name="donate_small">Donație mică</string>
+    <string name="donate_medium">Donație medie</string>
+    <string name="donate_large">Donație mare</string>
+    <string name="donate_successful">Îți mulțumesc pentru donație! Poate vrei să testezi gestul din nou.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Anulează</string>
+    <string name="pref_show_only">Arată doar bara de stare</string>
+    <string name="pref_show_only_on">Doar bara de stare este dezvăluită</string>
+    <string name="pref_show_only_off">Panoul de notificări sau setări rapide este extins</string>
+    <string name="pref_vibrate_strength">Intensitate vibrație</string>
+    <string name="pref_vibrate_strength_summary">Intesitatea vibrației la detectarea gestului</string>
+    <string name="app_changelog">Istoric modificări</string>
+    <string name="pref_swipe_width">Lățime</string>
+    <string name="pref_swipe_position">Poziție</string>
+
+</resources>

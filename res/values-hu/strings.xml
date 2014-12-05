@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">SwipeStatusBar engedélyezése</string>
+    <string name="pref_start_service_summary">Értesítés, vagy a gyors beállítások panel megjelenítése egy egyszerű mozdulatra</string>
+    <string name="pref_alternative_mode">Alternatív módszer</string>
+    <string name="pref_alternative_mode_summary">Funkcionális problémája van? Megpróbálhatja az alternatív módszert</string>
+    <string name="pref_general_settings">Általános beállítások</string>
+    <string name="pref_vibrate">Rezgő visszajelzés</string>
+    <string name="pref_vibrate_summary">Rezegjen, ha lehúzza az értesítési vagy a gyors beállítások panelt</string>
+    <string name="pref_multi_touch">Többujjas mozdulat</string>
+    <string name="pref_multi_touch_summary_on">Lehúzás két ujjal</string>
+    <string name="pref_multi_touch_summary_off">Lehúzás egy ujjal</string>
+    <string name="pref_expand_settings">Gyorsbeállítások panel engedélyezése</string>
+    <string name="pref_expand_settings_on">Balról lapozva az értesítéseket, jobbról csúsztatva a gyorsbeállítások jelennek meg</string>
+    <string name="pref_expand_settings_off">Egész területen az értesítési panel legyen</string>
+    <string name="pref_expand_settings_error">Ezt a funkciót nem támogatja az eszköz (Android 4.2+ szükséges)</string>
+    <string name="pref_try_it">Próbálja ki</string>
+    <string name="pref_try_it_summary">Próbálja ki a lapozó mozdulatokat és állítsa be az érzékenységet</string>
+    <string name="pref_others">Egyebek</string>
+    <string name="pref_bug_suggestions">Kapcsolatot a szerzővel</string>
+    <string name="pref_bug_suggestions_summary">Talált egy hibát vagy van ötlete, javaslata az alkalmazás javítása érdekében?</string>
+    <string name="pref_donate">Adomány</string>
+    <string name="pref_donate_summary">Ha tetszik ez az alkalmazás, kérem fontolja meg a fejlesztő támogatását</string>
+    <string name="pref_about">Rólunk</string>
+    <string name="test_swipe_sensitivity">Érzékenység beállítása</string>
+    <string name="app_descriptions">Segédprogram az értesítési vagy gyorsbeállító panel eléréséhez, csúsztató ujjmozdulat használatával, teljesképernyős alkalmazások esetén.</string>
+    <string name="app_author">Szerző</string>
+    <string name="app_translation">Fordítók</string>
+    <string name="app_version">Verzió:</string>
+    <string name="donate_small">Kis adomány</string>
+    <string name="donate_medium">Közepes adomány</string>
+    <string name="donate_large">Nagy adomány</string>
+    <string name="donate_successful">Köszönjük az adományát! Talán szeretné tesztelni újra a lapozást!</string>
+    <string name="button_ok">Oké</string>
+    <string name="button_cancel">Mégsem</string>
+    <string name="pref_show_only">Megjelenés</string>
+    <string name="pref_show_only_on">Csak az állapotsort mutatja</string>
+    <string name="pref_show_only_off">Az értesítési panelt is mutatja</string>
+    <string name="pref_vibrate_strength">Rezgő visszajelzés erőssége</string>
+    <string name="pref_vibrate_strength_summary">A rezgő visszajelzés erőssége, mikor az állapotsort lehúzza</string>
+    <string name="app_changelog">Változások</string>
+    <string name="pref_swipe_width">Terület szélessége</string>
+    <string name="pref_swipe_position">Terület pozícíója</string>
+
+</resources>

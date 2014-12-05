@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_start_service">Povolit SwipeStatusBar</string>
+    <string name="pref_start_service_summary">Zobrazení notifikační lišty nebo panelu rychlého nastavení jednoduchým gestem</string>
+    <string name="pref_alternative_mode">Alternativní režim</string>
+    <string name="pref_alternative_mode_summary">Máte problém s funkčností? Můžete vyzkoušet alternativní režim</string>
+    <string name="pref_general_settings">Obecné nastavení</string>
+    <string name="pref_vibrate">Vibrační odezva</string>
+    <string name="pref_vibrate_summary">Zavibrovat při vytažení lišty</string>
+    <string name="pref_multi_touch">Gesto několika prsty</string>
+    <string name="pref_multi_touch_summary_on">Pro vytažení lišty je nutno použít gesto minimálně dvěma prsty</string>
+    <string name="pref_multi_touch_summary_off">Pro vytažení lišty stačí použít gesto jedním prstem</string>
+    <string name="pref_expand_settings">Povolit panel rychlého nastavení</string>
+    <string name="pref_expand_settings_on">Gesto v levé části pro notifikační panel, gesto v pravé části pro panel rychlého nastavení</string>
+    <string name="pref_expand_settings_off">Celá část slouží pro notifikační lištu</string>
+    <string name="pref_expand_settings_error">Tato funkce není dostupná na vašem zařízení (vyžaduje Android 4.2 a výšší)</string>
+    <string name="pref_try_it">Vyzkoušet</string>
+    <string name="pref_try_it_summary">Vyzkoušet, upravit citlivost nebo změnit pozici a šířku plochy pro gesto</string>
+    <string name="pref_others">Ostatní</string>
+    <string name="pref_bug_suggestions">Kontaktovat autora</string>
+    <string name="pref_bug_suggestions_summary">Chcete nahlásit chybu nebo by se Vám líbila nějaká další funkce?</string>
+    <string name="pref_donate">Přispět</string>
+    <string name="pref_donate_summary">Pokud se Vám líbí tato aplikace, můžete autorovi přispět</string>
+    <string name="pref_about">O aplikaci</string>
+    <string name="test_swipe_sensitivity">Upravit citlivost</string>
+    <string name="app_descriptions">Pomocí této utility se můžete, skrze jednoduché gesto, dostat k notifikacím nebo do nastavení z aplikací přes celou obrazovku.</string>
+    <string name="app_author">Autor</string>
+    <string name="app_translation">Překladatelé</string>
+    <string name="app_version">Verze:</string>
+    <string name="donate_small">Malý dárek</string>
+    <string name="donate_medium">Střední dárek</string>
+    <string name="donate_large">Velký dárek</string>
+    <string name="donate_successful">Děkuji za Váš příspěvek! Možná si budete chtít znovu vyzkoušet gesto!?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Zrušit</string>
+    <string name="pref_show_only">Pouze zobrazit</string>
+    <string name="pref_show_only_on">Stavový řádek se pouze zobrazí</string>
+    <string name="pref_show_only_off">Stavový řádek se teď plně vysouvá</string>
+    <string name="pref_vibrate_strength">Síla vibrační odezvy</string>
+    <string name="pref_vibrate_strength_summary">Síla vibrační odezvy při vysunutí stavového řádku</string>
+    <string name="app_changelog">Seznam změn</string>
+    <string name="pref_swipe_width">Šířka</string>
+    <string name="pref_swipe_position">Pozice</string>
+    <string name="pref_show_status_bar">Trvalá viditelnost stavového řádku</string>
+    <string name="pref_show_status_bar_summary">Stavový řádek bude trvale zobrazen</string>
+
+    <!-- developer settings -->
+    <string name="pref_dev_title">Vývojářské nastavení</string>
+    <string name="pref_dev_summary">Pokračujte pouze pokud víte co děláte!</string>
+    <string name="pref_permanent_visibility">Trvalá viditelnost</string>
+    <string name="pref_permanent_visibility_summary">Trvalá viditelnost dotykové vrstvy</string>
+    <string name="pref_check_life_interval">Interval kontroly života</string>
+    <string name="pref_check_life_interval_summary">Interval, ve kterém je kontolována zda je dotyková vrstva ještě pořád naživu</string>
+    <string name="pref_language">Jazyk</string>
+    <string name="pref_language_summary">Změna jazyka této aplikace</string>
+
+</resources>
