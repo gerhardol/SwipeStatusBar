@@ -52,6 +52,12 @@
             android:summaryOn="@string/pref_show_only_on"
             android:title="@string/pref_show_only" >
         </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_status_bar_permanent_visibility"
+            android:summary="@string/pref_show_status_bar_summary"
+            android:title="@string/pref_show_status_bar" >
+        </CheckBoxPreference>
 
         <Preference
             android:key="@string/pref_key_try_it"
@@ -70,12 +76,6 @@
                 android:key="@string/pref_key_permanent_visibility"
                 android:summary="@string/pref_permanent_visibility_summary"
                 android:title="@string/pref_permanent_visibility" >
-            </CheckBoxPreference>
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:key="@string/pref_key_status_bar_permanent_visibility"
-                android:summary="@string/pref_show_status_bar_summary"
-                android:title="@string/pref_show_status_bar" >
             </CheckBoxPreference>
 
             <ListPreference
@@ -100,7 +100,14 @@
         <Preference
             android:key="@string/pref_key_bug_suggestions"
             android:summary="@string/pref_bug_suggestions_summary"
-            android:title="@string/pref_bug_suggestions" />
+            android:title="@string/pref_bug_suggestions" />
+
+
+
+
+
+
+
         -->
 
         <cz.chladek.android.preferences.BlinkingPreference
