@@ -22,13 +22,13 @@ public class ScreenListener extends BroadcastReceiver {
 		enabled = true;
 	}
 
-	public void setEnabled(boolean enbaled) {
+	public void setEnabled(boolean enabled) {
 		if (!this.enabled && enabled) {
 			cw.registerReceiver(this, filter);
-			enabled = true;
+			this.enabled = true;
 		} else if (this.enabled && !enabled) {
 			cw.unregisterReceiver(this);
-			enabled = false;
+			this.enabled = false;
 		}
 	}
 
