@@ -121,10 +121,10 @@ public class StatusBarController {
 	public void showStatusBar(int bar) {
 		try {
 			if (bar == STATUS_BAR_SETTINGS) {
-				expandSettings.invoke(systemServiceHandle);
+				//expandSettings.invoke(systemServiceHandle);
 				expandSettings.invoke(systemServiceHandle);
 			} else {
-				expandNotification.invoke(systemServiceHandle);
+				//expandNotification.invoke(systemServiceHandle);
 				expandNotification.invoke(systemServiceHandle);
 			}
 		} catch (InvocationTargetException e) {
