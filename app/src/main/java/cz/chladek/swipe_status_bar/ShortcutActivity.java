@@ -98,6 +98,11 @@ public class ShortcutActivity extends Activity {
 
                         Intent launchIntent = new Intent(sInstance, ShortcutActivity.class);
                         launchIntent.putExtra("ACTION_TO_RUN", ids[i]);
+                        //Hide from recents
+                        launchIntent.setFlags(
+                                Intent.FLAG_ACTIVITY_NO_USER_ACTION |
+                                        Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS |
+                                        Intent.FLAG_ACTIVITY_NO_HISTORY);
 
                         intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, launchIntent);
                         intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, names[i]);
