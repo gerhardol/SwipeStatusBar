@@ -54,5 +54,9 @@
     <string name="pref_check_life_interval_summary">Interval to check if service who cares about touch gesture live</string>
     <string name="pref_language">Language</string>
     <string name="pref_language_summary">Change language of application</string>
+    <string name="select_shortcut_action">Select Action</string>
+    <string name="select_shortcut_show">Show Status Bar</string>
+    <string name="select_shortcut_notifications">Expand Notifications</string>
+    <string name="select_shortcut_settings">Expand Settings</string>
 
 </resources>

@@ -16,7 +16,6 @@
 package cz.chladek.swipe_status_bar;
 
 import cz.chladek.swipe_status_bar.FullscreenDetector.OnFullscreenListener;
-import cz.chladek.swipe_status_bar.R;
 import android.app.ActivityManager;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -207,57 +206,81 @@ public class StatusBarService extends Service implements OnTouchListener, OnKeyL
 	}
 
 	@Override
-	public boolean onTouch(View v, MotionEvent me) {
-		MainActivity activity = MainActivity.getInstance();
-		if (activity != null) {
-			ComponentName cn = activityManager.getRunningTasks(1).get(0).topActivity;
-			if (!packageName.equals(cn.getPackageName()))
-				activity.finish();
-		}
+    public boolean onTouch(View v, MotionEvent me) {
+        MainActivity activity = MainActivity.getInstance();
+        if (activity != null) {
+            ComponentName cn = activityManager.getRunningTasks(1).get(0).topActivity;
+            if (!packageName.equals(cn.getPackageName()))
+                activity.finish();
+        }
 
-		boolean alternativeMode = prefs.getBoolean(getString(R.string.pref_key_alternative_mode), false);
-		if (v == viewAlternative) {
-			try {
-				windowManager.removeView(viewAlternative);
-			} catch (Exception e) {
-			}
-			statusBarController.setOriginalDesktopState();
-			return true;
-		}
+        if (v == viewAlternative) {
+            try {
+                windowManager.removeView(viewAlternative);
+            } catch (Exception e) {
+            }
+            statusBarController.setOriginalDesktopState();
+            return true;
+        }
 
-		switch (me.getAction()) {
-		case MotionEvent.ACTION_DOWN:
-			firstTouch = me.getRawY();
-			break;
-		case MotionEvent.ACTION_MOVE:
-			boolean multiTouchMode = prefs.getBoolean(getString(R.string.pref_key_multi_touch), false);
-			if (multiTouchMode && me.getPointerCount() < 2)
-				return false;
-			if (me.getRawY() - firstTouch > 5) {
-				if (prefs.getBoolean(getString(R.string.pref_key_vibrate), false))
-					vibrator.vibrate(prefs.getInt(getString(R.string.pref_key_vibrate_strength), 15));
+        switch (me.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                firstTouch = me.getRawY();
+                break;
+            case MotionEvent.ACTION_MOVE:
+                boolean multiTouchMode = prefs.getBoolean(getString(R.string.pref_key_multi_touch), false);
+                if (multiTouchMode && me.getPointerCount() < 2)
+                    return false;
+                if (me.getRawY() - firstTouch > 5) {
+                    if (prefs.getBoolean(getString(R.string.pref_key_vibrate), false))
+                        vibrator.vibrate(prefs.getInt(getString(R.string.pref_key_vibrate_strength), 15));
 
-				boolean openSettings = prefs.getBoolean(getString(R.string.pref_key_expand_settings), false) && me.getX() > v.getWidth() / 2;
-				if (alternativeMode) {
-					try {
-						windowManager.addView(viewAlternative, layoutParamsAlternative);
-					} catch (Exception e) {
-					}
-					statusBarController.overrideExpandedDesktopStyle();
-					if (!prefs.getBoolean(getString(R.string.pref_key_show_only), false))
-						statusBarController.showStatusBar(openSettings ? StatusBarController.STATUS_BAR_SETTINGS : StatusBarController.STATUS_BAR_NOTIFICATION);
-				} else {
-					statusBarActivity.putExtra(StatusBarHelperActivity.STATUC_BAR_NAME, openSettings ? StatusBarController.STATUS_BAR_SETTINGS : StatusBarController.STATUS_BAR_NOTIFICATION);
-					startActivity(statusBarActivity);
-				}
-				firstTouch = Float.MAX_VALUE;
-			}
-			break;
-		}
-		return true;
-	}
+                    boolean openSettings = prefs.getBoolean(getString(R.string.pref_key_expand_settings), false) && me.getX() > v.getWidth() / 2;
+                    boolean alternativeMode = prefs.getBoolean(getString(R.string.pref_key_alternative_mode), false);
+                    if (alternativeMode) {
+                        try {
+                            windowManager.addView(viewAlternative, layoutParamsAlternative);
+                        } catch (Exception e) {
+                        }
+                        statusBarController.overrideExpandedDesktopStyle();
+                        if (!prefs.getBoolean(getString(R.string.pref_key_show_only), false))
+                            statusBarController.showStatusBar(openSettings ? StatusBarController.STATUS_BAR_SETTINGS : StatusBarController.STATUS_BAR_NOTIFICATION);
+                    } else {
+                        statusBarActivity.putExtra(StatusBarHelperActivity.STATUC_BAR_NAME, openSettings ? StatusBarController.STATUS_BAR_SETTINGS : StatusBarController.STATUS_BAR_NOTIFICATION);
+                        startActivity(statusBarActivity);
+                    }
+                    firstTouch = Float.MAX_VALUE;
+                }
+                break;
+        }
+        return true;
+    }
 
-	public void permanentVisibility(boolean flag) {
+    public void showStatusBar(int mode) {
+        MainActivity activity = MainActivity.getInstance();
+        if (activity != null) {
+            ComponentName cn = activityManager.getRunningTasks(1).get(0).topActivity;
+            if (!packageName.equals(cn.getPackageName()))
+                activity.finish();
+        }
+
+        boolean alternativeMode = prefs.getBoolean(getString(R.string.pref_key_alternative_mode), false);
+        if (alternativeMode) {
+            try {
+                windowManager.addView(viewAlternative, layoutParamsAlternative);
+            } catch (Exception e) {
+            }
+            statusBarController.overrideExpandedDesktopStyle();
+            if ((mode == StatusBarController.STATUS_BAR_SETTINGS) || (mode == StatusBarController.STATUS_BAR_NOTIFICATION)) {
+                statusBarController.showStatusBar(mode);
+            }
+        } else {
+            statusBarActivity.putExtra(StatusBarHelperActivity.STATUC_BAR_NAME, mode);
+            startActivity(statusBarActivity);
+        }
+    }
+
+    public void permanentVisibility(boolean flag) {
 		if (flag) {
 			statusBarController.overrideExpandedDesktopStyle();
 			windowManager.addView(viewPermanently, layoutParamsPernamently);

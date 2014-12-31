@@ -24,15 +24,12 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
-/**
- * Created by Gregor on 10.8.2014.
- */
 public class ShortcutActivity extends Activity {
 
     private static Context sInstance;
-    final String[] profileNames = {"EXPAND_NOTIFICATIONS", "EXPAND_SETTINGS", "SHOW_STATUSBAR"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,19 +42,28 @@ public class ShortcutActivity extends Activity {
 
         Bundle extras = getIntent().getExtras();
 
+        //must match StatusBarService.ShowStatusBarModes
+        final String ids[] = {"SHOW_STATUSBAR", "EXPAND_NOTIFICATIONS", "EXPAND_SETTINGS"};
+
+        final Map<String, Integer> mActionToMode =
+                new HashMap<String, Integer>(3);
+        mActionToMode.put("SHOW_STATUSBAR", 0);
+        mActionToMode.put("EXPAND_NOTIFICATIONS", StatusBarController.STATUS_BAR_NOTIFICATION);
+        mActionToMode.put("EXPAND_SETTINGS", StatusBarController.STATUS_BAR_SETTINGS);
+        final String names[] = new String[3];
+        names[0] = getString(R.string.select_shortcut_show);
+        names[1] = getString(R.string.select_shortcut_notifications);
+        names[2] = getString(R.string.select_shortcut_settings);
+
         if (extras != null) {
 
             String action = extras.getString("ACTION_TO_RUN");
-            //TODO Alternative mode
+            if (action != null && mActionToMode.containsKey(action)) {
+                int mode = mActionToMode.get(action);
 
-            StatusBarService sbs = StatusBarService.getInstance();
-            if (sbs != null) {
-                StatusBarController sbc = sbs.getStatusBarController();
-                sbc.overrideExpandedDesktopStyle();
-                if (action.equals(profileNames[0])) {
-                    sbc.showStatusBar(StatusBarController.STATUS_BAR_NOTIFICATION);
-                } else if (action.equals(profileNames[1])) {
-                    sbc.showStatusBar(StatusBarController.STATUS_BAR_SETTINGS);
+                StatusBarService sbs = StatusBarService.getInstance();
+                if (sbs != null) {
+                    sbs.showStatusBar(mode);
                 }
             }
 
@@ -71,18 +77,15 @@ public class ShortcutActivity extends Activity {
         /**
          * show profiles selection dialog
          */
-        showProfileDialog();
-
-
+        showProfileDialog(ids, names);
     }
 
-    private void showProfileDialog() {
+    private void showProfileDialog(final String ids[], final String names[]) {
 
-        //final String[] profileNames = {"EXPAND_NOTIFICATIONS", "EXPAND_SETTINGS", "SHOW_STATUSBAR"};
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder
-                .setItems(profileNames, new DialogInterface.OnClickListener() {
+                .setItems(names, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
@@ -94,10 +97,10 @@ public class ShortcutActivity extends Activity {
                         Intent intent = new Intent();
 
                         Intent launchIntent = new Intent(sInstance, ShortcutActivity.class);
-                        launchIntent.putExtra("ACTION_TO_RUN", profileNames[i]);
+                        launchIntent.putExtra("ACTION_TO_RUN", ids[i]);
 
                         intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, launchIntent);
-                        intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, profileNames[i]);
+                        intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, names[i]);
                         //intent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, icon);
 
                         setResult(RESULT_OK, intent);
@@ -105,7 +108,7 @@ public class ShortcutActivity extends Activity {
 
                     }
                 })
-                .setTitle("Select action");//getString(R.string.select_profile));
+                .setTitle(getString(R.string.select_shortcut_action));
 
 
         final AlertDialog dialog = builder.create();
