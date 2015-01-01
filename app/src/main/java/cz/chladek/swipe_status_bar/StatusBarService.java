@@ -152,9 +152,9 @@ public class StatusBarService extends Service implements OnTouchListener, OnKeyL
 		}
 	};
 
-	public boolean isFullscreen() {
-		return detector != null ? detector.isFullscreen() : false;
-	}
+//	public boolean isFullscreen() {
+//		return detector != null ? detector.isFullscreen() : false;
+//	}
 
 	public void setAreaVisibility(boolean visible) {
 		if (visible && !areaVisible) {
@@ -290,9 +290,9 @@ public class StatusBarService extends Service implements OnTouchListener, OnKeyL
 		}
 	}
 
-	public FullscreenDetector getFullscreenDetector() {
-		return detector;
-	}
+//	public FullscreenDetector getFullscreenDetector() {
+//		return detector;
+//	}
 
 	public void setAreaHeight(int height) {
 		if (inWindow) {
