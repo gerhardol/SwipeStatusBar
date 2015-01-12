@@ -75,12 +75,12 @@ public class ShortcutActivity extends Activity {
         }
 
         /**
-         * show profiles selection dialog
+         * show selection dialog
          */
-        showProfileDialog(ids, names);
+        showDialog(ids, names);
     }
 
-    private void showProfileDialog(final String ids[], final String names[]) {
+    private void showDialog(final String ids[], final String names[]) {
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
@@ -97,6 +97,7 @@ public class ShortcutActivity extends Activity {
                         Intent intent = new Intent();
 
                         Intent launchIntent = new Intent(sInstance, ShortcutActivity.class);
+                        //The action - could be separate intents
                         launchIntent.putExtra("ACTION_TO_RUN", ids[i]);
                         //Hide from recents
                         launchIntent.setFlags(
