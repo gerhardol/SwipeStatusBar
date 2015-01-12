@@ -122,11 +122,12 @@ public class StatusBarService extends Service implements OnTouchListener, OnKeyL
 		viewAlternative.setOnKeyListener(this);
 
 		viewPermanently = new View(this);
+        viewPermanently.setOnKeyListener(this);
 
 		layoutParamsAlternative = new WindowManager.LayoutParams(0, 0, LayoutParams.TYPE_SYSTEM_ALERT, LayoutParams.FLAG_FORCE_NOT_FULLSCREEN | LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH
 				| LayoutParams.FLAG_NOT_TOUCH_MODAL, PixelFormat.TRANSLUCENT);
 
-		layoutParamsPernamently = new WindowManager.LayoutParams(0, 0, LayoutParams.TYPE_PHONE, LayoutParams.FLAG_FORCE_NOT_FULLSCREEN | LayoutParams.FLAG_NOT_TOUCHABLE, PixelFormat.TRANSLUCENT);
+		layoutParamsPernamently = new WindowManager.LayoutParams(0, 0, 0,0, LayoutParams.TYPE_PHONE, LayoutParams.FLAG_FORCE_NOT_FULLSCREEN | LayoutParams.FLAG_NOT_TOUCHABLE | LayoutParams.FLAG_NOT_FOCUSABLE, PixelFormat.TRANSLUCENT);
 
 		forceRunning(true);
 
@@ -207,6 +208,9 @@ public class StatusBarService extends Service implements OnTouchListener, OnKeyL
 
 	@Override
     public boolean onTouch(View v, MotionEvent me) {
+        if(v == viewPermanently) {
+            return false;
+        }
         MainActivity activity = MainActivity.getInstance();
         if (activity != null) {
             ComponentName cn = activityManager.getRunningTasks(1).get(0).topActivity;
