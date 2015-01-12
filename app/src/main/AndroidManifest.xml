@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cz.chladek.swipe_status_bar"
-    android:versionCode="31"
-    android:versionName="1.5.1" >
+    android:versionCode="32"
+    android:versionName="1.5.2" >
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.GET_TASKS" />
@@ -68,8 +68,7 @@
         <!-- SHORTCUTS -->
         <activity
             android:name=".ShortcutActivity"
-            android:label="SwipeStatusBar"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            android:label="SwipeStatusBar" >
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
             </intent-filter>
